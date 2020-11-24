@@ -1,0 +1,1 @@
+# jackson-multiple-naming-strategy
