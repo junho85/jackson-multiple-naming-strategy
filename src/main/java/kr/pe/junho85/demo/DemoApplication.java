@@ -1,0 +1,16 @@
+package kr.pe.junho85.demo;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import kr.pe.junho85.demo.dto.User;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+
+}
